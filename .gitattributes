@@ -1,0 +1,11 @@
+# Ensure consistent line endings for Python and text files
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Treat image files as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
