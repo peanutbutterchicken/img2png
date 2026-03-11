@@ -16,13 +16,13 @@ Works with any folder and can process multiple image types.
 # Installing Python
 Linux (Debian/Ubuntu)
 ```bash
-`sudo apt update`
-`sudo apt install python3 python3-venv python3-pip -y`
+sudo apt update
+sudo apt install python3 python3-venv python3-pip -y
 ```
 
 Linux (Fedora/CentOS/RHEL)
 ```bash
-`sudo dnf install python3 python3-venv python3-pip -y`
+sudo dnf install python3 python3-venv python3-pip -y
 ```
 
 Windows
