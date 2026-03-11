@@ -13,13 +13,38 @@ Works with any folder and can process multiple image types.
 - Python 3.x
 - Pillow (`pip install pillow`)
 
-## Usage
-```bash
-# Activate virtual environment
-python3 -m venv venv
-source venv/bin/activate
+# Installing Python
+Linux (Debian/Ubuntu)
+  sudo apt update
+  sudo apt install python3 python3-venv python3-pip -y
+
+Linux (Fedora/CentOS/RHEL)
+  sudo dnf install python3 python3-venv python3-pip -y
+
+Windows
+  Download python from official website: https://www.python.org/downloads/windows/
+
+Verify Installation
+  python --version
+  pip --version
+
+# Setting up the project
+cd image_converter
+
+Linux/macOS
+  python3 -m venv venv
+  source venv/bin/activate
+
+Windows (Command Prompt)
+  python -m venv venv
+  venv\Scripts\activate
+
+Windows (PowerShell)
+  python -m venv venv
+  venv\Scripts\Activate.ps1
 
 # Install dependencies
+pip install --upgrade pip
 pip install -r requirements.txt
 
 # Run the converter
